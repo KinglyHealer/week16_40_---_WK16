@@ -1,0 +1,87 @@
+# ====== 编译生成产物 ======
+*.o
+*.obj
+*.out
+app.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.sbr
+*.bsc
+*.idb
+*.pch
+*.res
+*.aps
+
+# ====== 构建目录 ======
+build/
+Build/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+.vs/
+
+# ====== IDE / 编辑器 ======
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*
+
+# ====== Python 相关 ======
+# 虚拟环境 (覆盖常见命名)
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python 缓存与字节码
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 打包分发
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# ====== 系统临时文件 ======
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====== 日志文件 ======
+*.log
+
+# ====== 输出产物 ======
+output/
+
+# ====== 项目特定 ======
+.claude/
+assets/
